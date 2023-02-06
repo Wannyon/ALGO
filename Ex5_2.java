@@ -1,4 +1,4 @@
-package ex05;
+package master;
 
 public class Ex5_2 {
 

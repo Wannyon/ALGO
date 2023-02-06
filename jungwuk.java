@@ -1,4 +1,4 @@
-package ex05;
+package master;
 
 import java.util.Scanner;
 
