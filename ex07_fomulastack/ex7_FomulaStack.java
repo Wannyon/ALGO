@@ -1,7 +1,5 @@
 package ex07_fomulastack;
 
-import java.util.StringTokenizer;
-
 interface Stack { // 인터페이스 메서드를 오버라이드 해야함.
 	boolean isEmpty();
 
