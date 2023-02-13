@@ -45,6 +45,10 @@ public class postfix {
 		System.out.printf("\n후위표기식 : ");
 		postfix = opt.infixTopostfix(exp);
 		System.out.println(postfix);
+		
+		System.out.printf("\n후위표기식 연산 : ");
+		int eval = opt.evalPostfix(postfix);
+		System.out.println(eval);
 	}
 }
 
@@ -181,7 +185,7 @@ class LinkedStack implements Stack {
 	@Override
 	public boolean isEmpty() { // 빈 스택인지 체크.
 		if (this.top == null) {
-			System.out.println("비어있는 스택입니다.");
+//			System.out.println("비어있는 스택입니다.");
 			return true;
 		}
 		return false;
