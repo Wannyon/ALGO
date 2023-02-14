@@ -16,18 +16,19 @@ class Sort4 {
 //			System.out.println(Arrays.toString(a));
 		}
 	}
+}
 
-	public class ex11_4_InsertSort {
-		public static void main(String args[]) {
-			int a[] = { 69, 10, 30, 2, 16, 8, 31, 22 };
-			int size = a.length;
-			Sort4 S = new Sort4();
-			System.out.printf("\n정렬할 원소 : ");
-			for (int i = 0; i < a.length; i++) {
-				System.out.printf("%d ", a[i]);
-			}
-			System.out.println();
-			S.insertSort(a, size);
+public class ex11_4_InsertSort {
+	public static void main(String args[]) {
+		int a[] = { 69, 10, 30, 2, 16, 8, 31, 22 };
+		int size = a.length;
+		Sort4 S = new Sort4();
+		System.out.printf("\n정렬할 원소 : ");
+		for (int i = 0; i < a.length; i++) {
+			System.out.printf("%d ", a[i]);
 		}
+		System.out.println();
+		S.insertSort(a, size);
+		
 	}
 }
